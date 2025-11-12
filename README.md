@@ -98,7 +98,7 @@ python app.py
 
 ## Demo Video
 
-### [▶️ Watch Video](Output/Demo_Video.mp4) ###
+#### [▶️ Watch Video](https://youtu.be/uVc8FXeYZy0) ####
 The video shows:
 - Real-time query and response
 - Source citation display
