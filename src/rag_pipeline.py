@@ -57,11 +57,9 @@ def format_context(docs):
         if content:  
             context_parts.append(content)
         
-        # Only keep the first (most relevant) source
         if i == 0 and 'source' in doc.metadata:
             source_name = doc.metadata['source'].split('/')[-1].split('\\')[-1]
             page_num = doc.metadata.get('page', 'Unknown')
-            # Convert page number to integer if it's a number
             if isinstance(page_num, (int, float)):
                 page_num = int(page_num)
             most_relevant_source = f"{source_name} (Page {page_num})"

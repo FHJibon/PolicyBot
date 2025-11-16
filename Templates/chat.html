@@ -55,7 +55,6 @@
 				return `${h}:${m} ${ampm}`;
 			}
 
-			// Hide welcome popup only when user starts typing
 			function hideWelcomePopup() {
 				if ($welcomePopup) {
 					$welcomePopup.classList.add('hidden');
@@ -111,7 +110,6 @@
 			}
 
 			async function sendMessage(text) {
-				// Hide welcome popup when message is sent
 				hideWelcomePopup();
 				
 				$send.disabled = true;
