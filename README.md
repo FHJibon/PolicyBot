@@ -1,4 +1,4 @@
-# AI Developer Task - Softvence Agency: Company Policy Assistant
+# Company Policy Assistant
 
 ![Company_Policy_Assistant](Output/Policy_Bot.png)
 
